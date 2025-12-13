@@ -1,0 +1,33 @@
+{
+  "name": "snake-ai",
+  "version": "1.0.0",
+  "description": "Ultimate Snake AI. Train a neural network to play Snake or play yourself!",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8080 -o",
+    "dev": "npx http-server . -p 8080 -o -c-1",
+    "build": "echo 'No build step required - static files only'",
+    "deploy": "echo 'Deploy to your hosting service'"
+  },
+  "keywords": [
+    "snake-game",
+    "neural-network",
+    "ai",
+    "machine-learning",
+    "game",
+    "browser-game"
+  ],
+  "author": "youssef pplo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/youssef-pplo/snake-ai.git"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+
